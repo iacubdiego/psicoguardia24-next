@@ -15,7 +15,7 @@ export default function Home() {
       <Banner />
       <Pricing />
       <ListPsicos />
-      <section className="flex flex-wrap items-center p-6 mx-auto gap-6">
+      <section className="flex flex-wrap w-full items-center p-6 mx-auto gap-6">
       <Testimonials />
       <Testimonials />
       <Testimonials />

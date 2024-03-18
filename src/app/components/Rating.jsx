@@ -87,10 +87,10 @@ export default function Rating() {
               </svg>
             </span>
           </span>
-          <span>4.1 out 5</span>
+          <span className="hidden md:block">4.1 out 5</span>
         </span>
         {/*          <!-- Helper text --> */}
-        <span className="text-xs leading-6 text-slate-400">
+        <span className="hidden md:block text-xs leading-6 text-slate-400">
           based on 42 user ratings
         </span>
       </div>

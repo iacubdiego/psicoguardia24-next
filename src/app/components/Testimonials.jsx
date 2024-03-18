@@ -4,11 +4,11 @@ export default function Testimonial() {
   return (
     <>
       {/*      <!-- Component: Elevated centered simple base sized testimonial --> */}
-      <div className=" w-[40vw] mx-auto my-6 overflow-hidden text-white text-center bg-gray-900 rounded shadow-lg text-slate-500 shadow-slate-600">
+      <div className="w-[40vw] min-w-[400px] mx-auto my-6 overflow-hidden text-white text-center bg-gray-900 rounded shadow-lg text-slate-500 shadow-slate-600">
         <div className="relative p-4">
           <figure className="relative z-10">
-            <blockquote className="p-6 text-lg leading-relaxed">
-              <p>
+            <blockquote className="  p-6 text-lg leading-relaxed">
+              <p className="text-clip">
               "Encontrar apoyo psicológico en momentos de angustia puede marcar la diferencia. Este servicio de guardia fue un gran respaldo para mí."              </p>
             </blockquote>
             <figcaption className="flex items-center gap-4 p-4 pt-2 text-sm text-emerald-500">
